@@ -22,8 +22,10 @@
 						<h1><a href="index.html"><strong>Dan Carmichael</strong> Software and Game Developer</a></h1>
 						<nav>
 							<ul>
-								<li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
-							</ul>
+								<li><a href="#footerabout" class="icon solid fa-question-circle">About</a></li>
+								<li><a href="#footersocial" class="icon solid fa-globe">Social</a></li>
+								<li><a href="#footercv" class="icon solid fa-clipboard-list">CV</a></li>
+							</ul>	
 						</nav>
 					</header>
 
@@ -44,9 +46,13 @@
 							<h2><strong>Gondola</strong> <br> Game Jam Submission - Theme: Reflection </h2>
 							<iframe frameborder="0" src="https://itch.io/embed/1171527?linkback=true&amp;border_width=0&amp;bg_color=3f2832&amp;fg_color=ffe762&amp;link_color=2ce8f4&amp;border_color=68515b" width="206" height="165"><a href="https://benevolentwhale.itch.io/gondola">Gondola by BenevolentWhale</a></iframe>						</article>
 						<article class="thumb">
-							<a href="images/fulls/traffictest.webm" class="image"><img src="images/thumbs/04.jpg" alt="" /></a>
+							<a href="images/fulls/04.jpg" class="image" onclick="$('#video').show(); $(this).hide();"><img src="images/thumbs/04.jpg" alt="" /></a>
+							<div id="video">
+								<video controls>
+									<source src="images/fulls/traffictest.webm"  type="video/webm;">
+								</video>
+							</div>
 							<h2><strong>Unity Traffic Sim</strong> <br> CS738 - Algoritms in the Real World Project </h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/05.jpg" class="image"><img src="images/thumbs/05.jpg" alt="" /></a>
@@ -91,23 +97,12 @@
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer" class="panel">
+					<footer id="footerabout" class="panel">
 						<div class="inner split">
 							<div>
 								<section>
-									<h2>Magna feugiat sed adipiscing</h2>
-									<p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
-								</section>
-								<section>
-									<h2>Follow me on ...</h2>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									</ul>
+									<h2>Dan Carmichael</h2>
+									<p>Creative Software Developer with a background in game development and digital art. Experience with Unity, Unreal, web development, and mobile applications. A fast learner and dedicated team member.</p>
 								</section>
 								<p class="copyright">
 									&copy; Unttled. Design: <a href="http://html5up.net">HTML5 UP</a>.
@@ -138,6 +133,30 @@
 						</div>
 					</footer>
 
+				<!-- Footer Social-->
+				<footer id="footersocial" class="panel">
+					<div class="inner">
+							<section>
+								<ul class="icons align-center">
+									<li><a href="#" class="icon brands fa-itch-io"><span class="label">Itch.io</span>  Itch.io</a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span>  GitHub</a></li>
+									<li><a href="#" class="icon brands fa-artstation"><span class="label">ArtStation</span>  ArtStation</a></li>
+									<li><a href="https://www.linkedin.com/in/daniel-carmichael-9757b0186/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span>  LinkedIn</a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span>  Instagram</a></li>
+									<li><a href="mailto: dscarmichael5@gmail.com" class="icon solid fa-envelope"><span class="label">E-mail</span>  E-mail</a></li>
+								</ul>
+							</section>
+						<div>							
+						</div>
+					</div>
+				</footer>	
+				
+				<!-- Footer CV-->
+				<footer id="footercv" class="panel">
+					<div class="inner align-center">
+							<iframe src="images/pdfs/Carmichael_CV.pdf#zoom=100" frameborder="0" width="100%" height="500px"></iframe>							
+					</div>
+				</footer>
 			</div>
 
 		<!-- Scripts -->
