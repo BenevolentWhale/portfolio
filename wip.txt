@@ -1,17 +1,10 @@
-About (Background, Resume, Classwork) / Projects / Social
+5 stars
 
-Saltwater Shindig - Mobile Game
-Blockchain Voting Ststtem - Web App
-Gondola Game - Computer Game
-Unity Traffic Sim - Unity Project
-Castaway - Computer Game
-Vision Assist - Accessability App
-Fanta Sea - Cinematic Experience
-1st Annual Fish Golf Charity Tournament Deluxe 10th Anniversary Edition - Computer Game
-Aroa - Computer Game
-The Watcher - Computer Game
-NPB Database Project - Web App
-For Your Eyes Only - Game Art
-Project Tunnel - Game Art
-Blitz Brawl - Game Art
+4 stars
+c++, c#, Unity, Excel, Word, PowerPoint, Git, Blender, VS
+3 stars
+html, css, js, react, Unreal, Blueprints, php, sql, Photoshop, Illustrator, Krita, Java, Solidity, After Effects
+2 stars
+Spring Boot, Node JS, Python
+1 stars
 
